@@ -1,0 +1,45 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+    gap: 10px;
+    padding: 20px 24px;
+    border-radius: 16px;
+    background-color: #fefefe;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 222ms ease, box-shadow 333ms ease;
+
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    }
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #f0f0f0;
+}
+
+.friendName {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+.online {
+    font-size: 16px;
+    font-weight: bold;
+    color: #5dbb63;
+}
+
+.offline {
+    font-size: 16px;
+    font-weight: bold;
+    color: #d46a6a;
+}

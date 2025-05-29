@@ -1,0 +1,10 @@
+.list {
+    display: flex;
+    gap: 10px;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.item {
+    cursor: pointer;
+}
